@@ -14,9 +14,9 @@ const ownStack = new MrCoxallStack()
 
 // Input & output
 const userInput = Number(prompt('Enter a number: '))
-ownStack.Push(userInput)
+ownStack.pushItem(userInput)
 
 // Output
-ownStack.ShowStack()
+ownStack.showStack()
 
 console.log('\nDone.')
